@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #F6F7F9;
+  color: #1B2430;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #C7CDD6; border-radius: 999px; }
+
+.focus-ring:focus-visible {
+  outline: 2px solid #0E9F8E;
+  outline-offset: 2px;
+}
